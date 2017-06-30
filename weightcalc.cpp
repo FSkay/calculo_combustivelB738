@@ -2,6 +2,7 @@
  original file http://forums.x-plane.org/index.php?/files/file/38444-weightcalcpy/
 Felipe Menegat (Skay) convert code to C#
 Código para cálculo de combustível B738
+To use Xplane 11 B738 Zibo mod
 */
 
 
