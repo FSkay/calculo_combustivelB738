@@ -25,14 +25,14 @@ float wingkg(wfuel):
 //Function to calc fuel in the center tank when wing tanks are full (lbs)
 float fulllbs(ffuel):
     center = ffuel - 17227.6
-    print("Wing tanks - full (8613.8 lbs in each), Center tank - ", center, "lbs");
+    printf("Wing tanks - full (8613.8 lbs in each), Center tank - ", center, "lbs");
     input("Any key to exit...");
 
 
 //Function to calc fuel in the wing tanks when center tanks is empty (lbs)
 float winglbs(wfuel)
     wings = wfuel / 2
-    print("Wing tanks - ", wings, " lbs in each, center tank - empty.");
+    printf"Wing tanks - ", wings, " lbs in each, center tank - empty.");
     input("Any key to exit...");
 
 main(){
@@ -40,7 +40,7 @@ main(){
 float ffuel, center, wfuel, fuel, wings,  
 
 //Begining of the program
-print("Weights calculator for X11 B738");
+printf("Weights calculator for X11 B738");
 //Unit selection
 selection = int(input('Select your units\n1. kg\n2. lbs\n'))
 //If metric units are selected:
@@ -55,9 +55,9 @@ if selection == 1
         fullkg(fuel)
     else if fuel == 7662.4:
         printf("Wing tanks - full (3831.2 kg in each), Center tank - empty.");
-    else:
+    else
         wingkg(fuel)
-	else if selection == 2:
+	else if selection == 2
     	zfw = float(input('Enter ZFW in pounds (e.g. 92800): '))
     	fuel = float(input('Enter fuel weight in pounds (e.g. 13926): '))
      //Payload calculation by subracting aircraft weight
@@ -72,8 +72,6 @@ if selection == 1
         winglbs(fuel)
 	else
     	printf("what");
-
-
 system("pause");
 return 0;	
 }
