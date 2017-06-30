@@ -1,7 +1,7 @@
 /* All credits to Petras123450 to creation of code
  original file http://forums.x-plane.org/index.php?/files/file/38444-weightcalcpy/
 Felipe Menegat (Skay) convert code to C#
-CÛdigo para calculo de combustivel B738
+C√≥digo para c√°lculo de combust√≠vel B738
 */
 
 
@@ -9,7 +9,7 @@ CÛdigo para calculo de combustivel B738
 #include <stdlib.h>
 #include <math.h>
 
-//FunÁ„o para calcular combustivel no tanque do centro quando tanque das asas estiverem cheios (kg)
+//Fun√ß√£o para calcular combustivel no tanque do centro quando tanque das asas estiverem cheios (kg)
 float fullkg (ffuel)
 	center = ffuel - 7662.4;
 	printf("Wing tanks - full (3831.2 kg in each), Center tank - ", center, "kg");
